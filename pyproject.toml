@@ -1,8 +1,20 @@
 [tool.poetry]
 name = "verval"
 version = "0.1.0"
-description = ""
-authors = ["hexatester <revolusi147id@gmail.com>"]
+description = "Client python verval* sdm.data.kemdikbud"
+authors = ["hexatester <habibrohman@gmail.com>"]
+license = "GPL-3"
+readme = "README.md"
+homepage = "https://github.com/dapodix/verval"
+repository = "https://github.com/dapodix/verval"
+packages = [
+    { include = "verval" },
+]
+include = [
+    "LICENSE",
+    "README.md",
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.7"
